@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Facilities</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Anastyles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <img src="logo.png" alt="Killenard Logo" class="logo">
+        <div class="nav-links">
+          <a href="#">News</a>
+          <a href="#">About</a>
+          <a href="#" class="active">Facilities</a>
+          <a href="activities.html">Activities</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Facilities Section -->
+    <main class="container">
+      <h1 class="title">Our Facilities</h1>
+      <!-- Card Grid Container -->
+      <div class="card-grid">
+        <!-- Card 1: Main Hall -->
+        <div class="card">
+          <img src="../WEB_Assessment/Image/main-hall.jpg" alt="Main Hall" class="card-image">
+          <div class="card-content">
+            <h2>Main Hall</h2>
+            <p>Our main hall is available for 5 a side soccer, badminton, basketball and any other activity requiring a large space. Additionally, it can be used for conferences and other events.</p>
+            <p class="important-note">IMPORTANT: Electricity is charged separately via machine. This machine accepts €1 and €2 coins only.</p>
+            <h3>Pricing</h3>
+            <p class="price">1 Hour: €50.00</p>
+            <p class="price">Full Day: €200.00</p>
+          </div>
+        </div>
+
+        <!-- Card 2: Meeting Rooms -->
+        <div class="card">
+          <img src="../WEB_Assessment/Image/meeting-rooms.jpg" alt="Meeting Rooms" class="card-image">
+          <div class="card-content">
+            <h2>Meeting Rooms</h2>
+            <p>Perfect for conferences, seminars, and private gatherings.</p>
+          </div>
+        </div>
+
+        <!-- Card 3: Squash & Handball -->
+        <div class="card">
+          <img src="../WEB_Assessment/Image/squash-handball.jpg" alt="Squash & Handball" class="card-image">
+          <div class="card-content">
+            <h2>Squash & Handball</h2>
+            <p>Enjoy our facilities for squash and handball in a dedicated space.</p>
+          </div>
+        </div>
+
+        <!-- Card 4: Bring Bank -->
+        <div class="card">
+          <img src="../WEB_Assessment/Image/bring-bank.jpg" alt="Bring Bank" class="card-image">
+          <div class="card-content">
+            <h2>Bring Bank</h2>
+            <p>A recycling area for glass bottles and other materials.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>© Killenard Community Centre | At the heart of the community</p>
+        <div class="social-links">
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>

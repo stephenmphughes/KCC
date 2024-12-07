@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Activities</title>
+  <link rel="stylesheet" href="Anastyles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <img src="logo.png" alt="Killenard Logo" class="logo">
+      <div class="nav-links">
+        <a href="#">News</a>
+        <a href="#">About</a>
+        <a href="facilities.html">Facilities</a>
+        <a href="#" class="active">Activities</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Activities Section -->
+  <main class="container">
+    <h1 class="title">Our Activities</h1>
+    <!-- Card Grid Container -->
+    <div class="card-grid">
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="../WEB_Assessment/Image/Pilates.jpg" alt="Pilates" class="card-image">
+        <div class="card-content">
+          <h2>Pilates</h2>
+          <p>Strengthen and tone your body with professional Pilates sessions.</p>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="card">
+        <img src="../WEB_Assessment/Image/mother-baby-pilates.jpg" alt="Mother and Baby Pilates" class="card-image">
+        <div class="card-content">
+          <h2>Mother and Baby Pilates</h2>
+          <p>Stay fit while bonding with your baby in a fun and supportive class.</p>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="card">
+        <img src="../WEB_Assessment/Image/yoga.jpg" alt="Yoga" class="card-image">
+        <div class="card-content">
+          <h2>Yoga</h2>
+          <p>Relax, meditate, and improve flexibility through guided yoga classes.</p>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="card">
+        <img src="../WEB_Assessment/Image/irish-dancing.jpg" alt="Irish Dancing" class="card-image">
+        <div class="card-content">
+          <h2>Irish Dancing</h2>
+          <p>Learn the art of Irish dancing with expert instructors.</p>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="card">
+        <img src="../WEB_Assessment/Image/brain-gym.jpg" alt="Brain Gym" class="card-image">
+        <div class="card-content">
+          <h2>Brain Gym</h2>
+          <p>Boost mental agility through exercises and engaging activities.</p>
+        </div>
+      </div>
+      <!-- Card 6 -->
+      <div class="card">
+        <img src="../WEB_Assessment/Image/sit-and-get-fit.jpg" alt="Sit and Get Fit" class="card-image">
+        <div class="card-content">
+          <h2>Sit and Get Fit</h2>
+          <p>Low-impact exercise classes tailored for seniors and beginners.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© Killenard Community Centre | At the heart of the community</p>
+      <div class="social-links">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
